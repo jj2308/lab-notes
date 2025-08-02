@@ -5,8 +5,8 @@ import { supabase } from '../lib/supabase'
 import { useEntries, useNotebooks } from '../hooks/useSupabase'
 import { 
   BiUser, BiCog, BiDownload, BiShield, BiMoon, BiSun, 
-  BiSave, BiEdit, BiTrash, BiExport, BiImport, BiStats,
-  BiNotification, BiKey, BiLogOut, BiHeart
+  BiSave, BiEdit, BiTrash, BiExport, BiStats,
+  BiNotification, BiKey, BiLogOut
 } from 'react-icons/bi'
 import { MdSettings } from 'react-icons/md'
 

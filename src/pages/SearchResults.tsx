@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
-import { Link, useSearchParams, useNavigate } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom'
 import { useGlobalSearch } from '../hooks/useGlobalSearch'
 import type { SearchResult } from '../hooks/useGlobalSearch'
-import { BiSearch, BiTime, BiBook, BiTag, BiCalendar, BiFilter } from 'react-icons/bi'
+import { BiSearch, BiBook, BiTag, BiCalendar, BiFilter } from 'react-icons/bi'
 import { TbFlask } from 'react-icons/tb'
 
 export default function SearchResults() {

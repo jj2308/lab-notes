@@ -9,7 +9,7 @@ import {useState,useEffect} from "react"
 
 export default function Dashboard(){
   const navigate=useNavigate()
-  const {user,loading:authLoading,signOut}=useAuth()
+  const {user,loading:authLoading}=useAuth()
   const {entries,loading:entriesLoading,error:entriesError}=useEntries()
   const {stats,loading:statsLoading}=useStats()
   const {createNotebook,refetch}=useNotebooks() // <-- get creators

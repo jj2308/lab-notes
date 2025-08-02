@@ -78,7 +78,7 @@ export function Navbar() {
         </Link>
         <NavLink 
           to="/dashboard" 
-          className={({ isActive }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-semibold ml-4 transition-colors ${
+          className={({ isActive }: { isActive: boolean }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-semibold ml-4 transition-colors ${
             isActive ? 'text-blue-600 bg-blue-50' : 'text-gray-600 hover:bg-gray-100'
           }`}
         >
@@ -86,7 +86,7 @@ export function Navbar() {
         </NavLink>
         <NavLink 
           to="/notebooks" 
-          className={({ isActive }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
+          className={({ isActive }: { isActive: boolean }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
             isActive ? 'text-blue-600 bg-blue-50' : 'text-gray-600 hover:bg-gray-100'
           }`}
         >
@@ -94,7 +94,7 @@ export function Navbar() {
         </NavLink>
         <NavLink 
           to="/entries" 
-          className={({ isActive }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
+          className={({ isActive }: { isActive: boolean }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
             isActive ? 'text-blue-600 bg-blue-50' : 'text-gray-600 hover:bg-gray-100'
           }`}
         >
@@ -102,7 +102,7 @@ export function Navbar() {
         </NavLink>
         <NavLink 
           to="/tags" 
-          className={({ isActive }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
+          className={({ isActive }: { isActive: boolean }) => `nav-link flex items-center gap-1 px-3 py-1 rounded-lg font-medium transition-colors ${
             isActive ? 'text-blue-600 bg-blue-50' : 'text-gray-600 hover:bg-gray-100'
           }`}
         >
