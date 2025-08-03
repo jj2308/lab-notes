@@ -1,5 +1,7 @@
-import { useState, KeyboardEvent } from 'react'
+import { useState } from 'react'
+import type { KeyboardEvent } from 'react'
 import { BiX, BiPlus } from 'react-icons/bi'
+
 
 interface TagInputProps {
   tags: string[]
