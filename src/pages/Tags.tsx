@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect } from 'react'
-import { Link, useNavigate, useSearchParams } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import { EntryCard } from '../components/EntryCard'
 import { useEntries } from '../hooks/useSupabase'
 import { BiTag, BiSearch, BiSort, BiTrendingUp, BiCalendar, BiPieChart } from 'react-icons/bi'
@@ -15,7 +15,6 @@ interface TagData {
 
 export default function Tags() {
   const { entries, loading } = useEntries()
-  const navigate = useNavigate()
   const [searchParams] = useSearchParams()
   const [searchTerm, setSearchTerm] = useState('')
   const [sortBy, setSortBy] = useState<'name' | 'count' | 'recent'>('count')
