@@ -9,12 +9,12 @@ export default function Login(){
         {/* App Logo and Title */}
         <div className="flex items-center gap-3 mb-2">
           <TbFlask className="text-4xl text-blue-500" />
-          <div className="text-3xl font-bold text-teal-600">LabVibes</div>
+          <div className="text-3xl font-bold text-teal-600">LabNotes</div>
         </div>
         
         {/* Welcome Message */}
         <div className="text-center space-y-3">
-          <h1 className="text-2xl font-bold text-gray-800">Welcome to LabVibes</h1>
+          <h1 className="text-2xl font-bold text-gray-800">Welcome to LabNotes</h1>
           <p className="text-gray-600 leading-relaxed">
             Your digital lab notebook for organizing experiments, protocols, and research notes. 
             Track your scientific journey with ease.
